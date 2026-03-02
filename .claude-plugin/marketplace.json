@@ -1,0 +1,28 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ivrejchik-claude_skills_ivrejchik",
+  "description": "Custom Claude Code skills by ivrejchik — parallel team orchestration, Airflow DAG builder, and more",
+  "owner": {
+    "name": "ivrejchik"
+  },
+  "plugins": [
+    {
+      "name": "solve",
+      "description": "Spawn a full parallel dev team to solve any problem. Acts as team lead — researches the problem, plans roles and tasks, then unleashes parallel agent team members.",
+      "author": {
+        "name": "ivrejchik"
+      },
+      "source": "./plugins/solve",
+      "category": "development"
+    },
+    {
+      "name": "add-dag",
+      "description": "Build a new Airflow DAG from a brief idea, .py file, or .md spec. Launches 6 parallel research agents to analyze the codebase, then implements the DAG following existing patterns on a feature branch with tests.",
+      "author": {
+        "name": "ivrejchik"
+      },
+      "source": "./plugins/add-dag",
+      "category": "development"
+    }
+  ]
+}
