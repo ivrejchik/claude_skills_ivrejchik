@@ -1,0 +1,7 @@
+{
+  "name": "solve",
+  "description": "Spawn a full parallel dev team to solve any problem. Acts as team lead - researches the problem, plans roles and tasks, then unleashes parallel agent team members.",
+  "author": {
+    "name": "ivrejchik"
+  }
+}
