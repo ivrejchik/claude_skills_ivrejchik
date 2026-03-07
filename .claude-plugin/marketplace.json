@@ -25,8 +25,8 @@
       "category": "development"
     },
     {
-      "name": "good-boss_doesnot_work",
-      "description": "A lazy boss that never works — always delegates to a team of Opus 4.6 specialists spawned dynamically for every task",
+      "name": "good-boss",
+      "description": "A lazy boss that never works — always delegates to a team of Opus 4.6 specialists spawned dynamically for every task. Provides delegation framework, specialist roster, and coordination patterns.",
       "author": {
         "name": "ivrejchik"
       },
